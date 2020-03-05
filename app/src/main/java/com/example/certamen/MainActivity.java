@@ -13,7 +13,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-
+// variables 
     Button generar;
     Button sumar;
     Button resta;
