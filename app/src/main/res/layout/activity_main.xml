@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+    >
+        <TextView
+            android:id="@+id/numero1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero1"
+            android:textColor="@color/BLANCO"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+
+            />
+        <TextView
+            android:id="@+id/signo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/signo"
+            android:textColor="@color/BLANCO"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/numero2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero2"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/BLANCO"
+            android:textAlignment="center"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/generar_numeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/botongenerarnumero"
+        android:textStyle="bold"
+
+        android:background="@color/BOTON_GENERAR_NUMEROS"
+        android:textColor="@color/BLANCO"
+        android:textSize="30dp">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+     <Button
+         android:id="@+id/operacion_sumar"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:text="@string/signomas"
+         android:background="@color/BOTON_MAS"
+         android:textSize="50dp"
+         android:textColor="@color/BLANCO"
+         ></Button>
+
+        <Button
+            android:id="@+id/boton_resta"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/signomenos"
+            android:background="@color/BOTON_MENOS"
+            android:textSize="50dp"
+            android:textColor="@color/BLANCO"
+            ></Button>
+
+
+        <Button
+            android:id="@+id/boton_borrar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/signoborrar"
+            android:background="@color/BOTON_C"
+            android:textSize="50dp"
+            android:textColor="@color/BLANCO"
+            ></Button>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/boton_multiplicar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/signomult"
+            android:background="@color/BOTON_X"
+            android:textSize="50dp"
+            android:textColor="@color/BLANCO"
+            ></Button>
+
+        <Button
+            android:id="@+id/boton_dividir"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/signodiv"
+            android:background="@color/BOTON_DIV"
+            android:textSize="50dp"
+            android:textColor="@color/BLANCO"
+            ></Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/resultado_par"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/RESULTADO_PAR"
+        android:text="@string/resultado_es_par"
+        android:textSize="30dp"
+        android:textColor="@color/BLANCO"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/resultado_impar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/RESULTADO_PRIMO"
+        android:text="@string/resultado_es_primo"
+        android:textStyle="bold"
+        android:textColor="@color/BLANCO"
+        android:textSize="30dp">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RESULTADO"
+        android:text="@string/resultado_arriba"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:textColor="@color/BLANCO"
+        android:textSize="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/RESULTADO_FINAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RESULTADO_PRIMO"
+        android:text="@string/resultado_final"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/BLANCO"
+        android:textSize="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/ES_PARR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RESULTADO"
+        android:text="@string/es_par"
+        android:textAlignment="center"
+        android:textColor="@color/BLANCO"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</LinearLayout>

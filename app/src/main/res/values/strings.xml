@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Certamen</string>
+    <string name="numero1">0</string>
+    <string name="numero2">0</string>
+    <string name="signo">"?"</string>
+    <string name="botongenerarnumero">GENERAR NÚMEROS</string>
+    <string name="signomas">+</string>
+    <string name="signomenos">-</string>
+    <string name="signomult">x</string>
+    <string name="signoborrar">C</string>
+    <string name="signodiv">/</string>
+    <string name="resultado_es_par">¿RESULTADO ES PAR?</string>
+    <string name="resultado_es_primo">¿RESULTADO ES PRIMO?</string>
+    <string name="resultado_arriba">RESULTADO</string>
+    <string name="resultado_final">0</string>
+    <string name="es_par">ES PAR</string>
+
+
+
+
+
+
+
+
+
+
+</resources>
